@@ -14,7 +14,7 @@ const App = () => {
     const [profiles, setProfiles] = useState([]);
 
     const addNewProfile = (profileData) =>{
-      // console.log("APP", profileData)
+      console.log("APP", profileData)
       setProfiles(prevState => (
         [...prevState,profileData]
       ))
